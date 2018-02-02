@@ -21,6 +21,7 @@ namespace addressbook_tests_autoit
             aux.WinActivate(WINTITTLE);
             aux.WinWaitActive(WINTITTLE);
             groupHelper = new GroupHelper(this);
+            //Doesn't work
         }
 
         public void Stop()
